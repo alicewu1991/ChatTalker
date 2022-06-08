@@ -1,0 +1,32 @@
+.footer-plan {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 36%;
+  max-height: 503px;
+  max-height: 100%;
+}
+
+.footer {
+  background-color: $color-secondary-background;
+  p {
+    padding: 16px;
+    text-align: center;
+  }
+}
+
+.top {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 70%;
+  right: 5%;
+  width: 71px;
+  height: 71px;
+}

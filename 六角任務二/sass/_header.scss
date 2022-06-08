@@ -1,0 +1,48 @@
+.header_logo {
+  img {
+    width: 218px;
+  }
+}
+.navbar {
+  max-width: 1085px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.nav_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_background {
+  @media (min-width: 769px) {
+    background-image: url(https://lishan-shih.github.io/chatTalker/images/bg_yellow.svg);
+    background-position: right top;
+    background-size: 850px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+}
+.banner_box {
+  max-width: 1085px;
+  width: 100%;
+  display: flex;
+  padding: 30px 0px;
+}
+.bannner_text {
+  padding: 158px 0px;
+  padding-right: 120px;
+  .h3_headline,
+  .h1_headline,
+  .paragraph {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+.bannner_img {
+  max-width: 532px;
+  height: auto;
+  display: flex;
+  // margin-left: 70px;
+}

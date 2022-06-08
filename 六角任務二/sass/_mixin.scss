@@ -1,0 +1,154 @@
+@mixin pad {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+.banner_background {
+  @include pad {
+    background-color: #fff;
+  }
+  @include mobile {
+    background-color: #fff;
+  }
+}
+.banner_box {
+  @include pad {
+    max-width: 738px;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+  @include mobile {
+    width: 335px;
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+.bannner_text {
+  @include pad {
+    padding: 32px 0px;
+  }
+  @include mobile {
+    padding: 8px 0px;
+  }
+}
+.bannner_img {
+  @include pad {
+    height: auto;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    width: 100%;
+  }
+  @include mobile {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 304px;
+    width: 100%;
+  }
+}
+.row_1.h2_headline {
+  @include pad {
+    max-width: 320px;
+  }
+  @include mobile {
+    max-width: 252px;
+    height: 40px;
+  }
+}
+.row_1 .productList {
+  @include pad {
+    display: flex;
+    flex-direction: column;
+    max-width: 748px;
+    width: 100%;
+  }
+  @include mobile {
+    max-width: 228px;
+  }
+}
+.row_2 .product_headline {
+  @include pad {
+    padding-bottom: 16px;
+  }
+}
+.row_2 .long_paragraph {
+  @include mobile {
+    max-width: 334px;
+    width: 100%;
+  }
+}
+
+.row_2 .product_item {
+  @include pad {
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  @include mobile {
+    max-width: 260px;
+  }
+}
+.row_3 {
+  @include pad {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+}
+.row_3 .product_cards {
+  @include pad {
+    width: 554px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 73px;
+  }
+}
+.row_4 .feedback {
+  @include pad {
+    max-width: 352px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  @include mobile {
+    max-width: 335px;
+    width: 100%;
+  }
+  .feedback_cards {
+    @include pad {
+      margin: 60px 0px;
+      max-width: 352px;
+    }
+    @include mobile {
+      width: 335px;
+      height: 304px;
+    }
+  }
+}
+.footer-plan {
+  @include pad {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @include mobile {
+    max-width: 375px;
+  }
+}
+.footer-plan .h2_headline {
+  @include mobile {
+    padding: 20px;
+  }
+}
