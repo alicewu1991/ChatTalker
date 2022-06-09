@@ -1,0 +1,57 @@
+.h2_headline_bold .options {
+  display: flex;
+  justify-content: center;
+  padding: 27px 0px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0px;
+}
+.options_items {
+  box-shadow: 0px 2px 10px #00000014;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 444px;
+  height: 565px;
+  margin: 10px;
+}
+.options_items_all {
+  display: flex;
+}
+.options_items_pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 29px;
+}
+.options_items_div {
+  background-color: $color-secondary-background;
+  border-radius: 12px;
+  padding: 24px;
+  width: 169px;
+  height: 108px;
+}
+
+.options_plans li {
+  display: flex;
+  padding-left: 29px;
+  margin-bottom: 16px;
+}
+.options_plans p {
+  text-indent: 12px;
+}
+.FAQ {
+  padding-bottom: 48px;
+}
+.FAQ li {
+  box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  padding: 16px 32px;
+  margin: 16px 0px;
+}
+
+.FAQ .FAQ_last {
+  display: flex;
+}

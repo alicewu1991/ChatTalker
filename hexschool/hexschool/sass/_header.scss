@@ -1,0 +1,76 @@
+.header_logo {
+  img {
+    width: 218px;
+  }
+}
+.navbar {
+  max-width: 1085px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.nav_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_background {
+  @media (min-width: 769px) {
+    background-image: url(https://lishan-shih.github.io/chatTalker/images/bg_yellow.svg);
+    background-position: right top;
+    background-size: 850px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+}
+.banner_box {
+  max-width: 1085px;
+  width: 100%;
+  display: flex;
+  padding: 30px 0px;
+}
+.bannner_text {
+  padding: 158px 0px;
+  padding-right: 120px;
+  .h3_headline,
+  .h1_headline,
+  .paragraph {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+.bannner_img {
+  max-width: 532px;
+  height: auto;
+  display: flex;
+  // margin-left: 70px;
+}
+.banner_background_second {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+.banner_background_second::before {
+  content: "";
+  background-color: #f7f9fd;
+  border-bottom-left-radius: 300px;
+  width: 100vw;
+  height: 24%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -100;
+}
+.banner_background_second::after {
+  background-image: url(https://carriewz.github.io/chatTalker/images/banner.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 885px;
+  height: 559px;
+}

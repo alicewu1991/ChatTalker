@@ -1,0 +1,133 @@
+.h1_headline {
+  font-size: 48px;
+  font-weight: bold;
+}
+.product_headline {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h2_headline {
+  text-align: center;
+  font-size: 32px;
+  padding: 14px 0px;
+  line-height: 1.5;
+}
+
+.h2_headline_bold {
+  font-weight: bold;
+  font-size: 32px;
+  padding: 14px;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 48px;
+}
+.h2_headline_normal {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.5;
+}
+.h2__colorful_headline {
+  color: $color-primary;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.h3_headline_bold {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 19px;
+  text-align: center;
+  line-height: 1.5;
+  border-bottom: 1px solid $color-secondary-background;
+}
+
+.h4_colorful_headline {
+  font-size: 18px;
+  font-weight: bold;
+  color: $color-primary;
+  padding: 4px 0px;
+}
+.h4_headline_tac {
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.h4_headline_tal {
+  font-size: 18px;
+  padding: 16px 0px;
+  text-align: left;
+}
+
+.long_paragraph {
+  max-width: 560px;
+  font-size: 20px;
+}
+.paragraph {
+  font-size: 20px;
+}
+.paragraph_fz18 {
+  font-size: 18px;
+  padding: 14px;
+}
+
+.member_title {
+  font-size: 12px;
+}
+.price_title {
+  font-size: 12px;
+}
+.member_number_squad {
+  color: $color-primary;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+.currency {
+  font-size: 12px;
+  vertical-align: baseline;
+}
+.equal {
+  font-size: 29px;
+  padding: 33px 8px;
+}
+.ta_l {
+  text-align: left;
+}
+.ml_-8 {
+  margin-left: -8px;
+}
+.w166 {
+  width: 166px;
+}
+.padding_32 {
+  padding: 32px;
+}
+.padding_tb32 {
+  padding: 48px 0px;
+}
+
+.padding_48 {
+  padding: 48px;
+}
+.padding_r12 {
+  padding-right: 0px 12px;
+}
+.padding_tb17 {
+  padding: 17px 0px;
+}
+.padding_b16 {
+  padding-bottom: 16px;
+}
+.fw_bold {
+  font-weight: bold;
+}
+.padding_2919 {
+  padding: 29px 19px;
+}
+.display_flex_jcsb {
+  display: flex;
+  justify-content: space-between;
+}

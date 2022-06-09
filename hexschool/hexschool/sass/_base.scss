@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Noto Sans TC;
+  list-style-type: none;
+  a {
+    text-decoration: none;
+  }
+  p {
+    line-height: 1.5;
+  }
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container_center {
+  max-width: 1388px;
+  margin: 0 auto;
+}
